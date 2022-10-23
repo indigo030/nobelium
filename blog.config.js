@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'DuGuorui\'s Blog',
   author: 'Du Guorui',
-  email: 'i@craigary.net',
+  email: 'indigo20030103@gmail.com',
   link: 'https://nobelium.vercel.app',
   description: 'We\'re all gonna die, lets act accordingly.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
@@ -15,7 +15,7 @@ const BLOG = {
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: '',
   seo: {
