@@ -16,9 +16,7 @@
   color: inherit;
 }
 
-svg.notion-page-icon {
-  @apply hidden;
-}
+svg.notion-page-icon，
 
 svg + .notion-page-title-text {
   @apply border-b-0;
