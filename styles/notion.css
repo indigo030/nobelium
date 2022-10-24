@@ -17,7 +17,7 @@
 }
 
 svg.notion-page-icon{
-  @apply ;  
+  @apply hidden;  
 }
 
 svg + .notion-page-title-text {
