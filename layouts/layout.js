@@ -16,7 +16,7 @@ const Layout = ({
   children,
   blockMap,
   frontMatter,
-  emailHash = “04eb94c59a72d2ee09230bd29189fcc1”,
+  emailHash = '04eb94c59a72d2ee09230bd29189fcc1',
   fullWidth = false
 }) => {
   const locale = useLocale()
