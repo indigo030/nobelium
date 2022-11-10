@@ -16,7 +16,7 @@ const Layout = ({
   children,
   blockMap,
   frontMatter,
-  emailHash,
+  emailHash = “04eb94c59a72d2ee09230bd29189fcc1”,
   fullWidth = false
 }) => {
   const locale = useLocale()
@@ -42,7 +42,7 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src={`https://gravatar.com/avatar/04eb94c59a72d2ee09230bd29189fcc1?s=80`}
+                  src={`https://gravatar.com/avatar/${emailHash}`}
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
